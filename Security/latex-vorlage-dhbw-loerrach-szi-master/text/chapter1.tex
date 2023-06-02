@@ -1,76 +1,26 @@
 \section{Einleitung}
 \subsection{Einführung}
-\epigraph{"`Des Menschen größtes Verdienst bleibt wohl, wenn er die Umstände soviel als möglich bestimmt und sich so wenig als möglich von ihnen bestimmen läßt."'}{Johann Wolfgang von Goethe\footcite[S. 10]{Freund2014}}
-Ein zum Thema passendes Zitat fast immer eine gute Einleitung für die Arbeit. 
-\ac{BPMN} ist eine Modellierungssprache.\footcite[Vgl.][S. 1]{Freund2014} Bei der ersten Verwendung von Abkürzungen werden diese in Klammern automatisch ausgeschrieben. 
-Bei der zweiten Verwendung ist das nicht so, wie man anhand von \ac{BPMN} sehen kann. "`Das ist ein direktes Zitat aus dem Internet"'.\footcite[S. 3]{OMG2018}
-Bei einseitigen Quellen kann man die Seitenzahl weglassen.\footcite[Vgl.][]{schlechteQuelle}
-Es gibt viele schlechte Quellen.\footcite[Vgl.][S. 1-3]{schlechteQuelle2}
+\epigraph{"`More companies are moving to new stronger technologies to authenticate user identities, like biometrics. Because it's just too easy for hackers to figure out usernames and passwords, like ``password``'' or 12345... 7. Those are some of my previous passwords. I've changed them since then."'}{Barack Obama\footcite[Vgl.]{CNET}}
+In der heutigen Zeit sind Passwörter eine der grundlegendsten Methoden um Benutzer zu identifizieren. 
+Allerdings ist die Komplexität der meisten Passwörter sehr gering und somit ist das Benutzernamen und Passwort erraten sehr leicht. 
+Wie der ehemalige US-Präsident Barack Obama betont, haben Unternehmen erkannt, dass sie auf neue, stärkere Technologien umsteigen müssen, 
+um die Identität von Benutzern zu authentifizieren, wie zum Beispiel biometrische Verfahren. 
+Diese Authentifikationsmethoden sind angesicht der Passwörter des ehemalige Präsidenten ein deutlich stärkere und sichere Maßnahme.
 
 \subsection{Zieldefinition}
-Das Ziel der Arbeit soll eine Vergleich von ausgewählten Passwort Hacking Methoden sein. 
-Dieses Ziel beeinhaltet eine threotischen Vergleich bei dem 
+Das Ziel dieser Seminararbeit besteht darin, eine umfassende Vergleichsanalyse ausgewählter Passwort-Hacking-Methoden durchzuführen. Dazu werden Brute-Force-Angriffe, Dictionary-Angriffe und Rainbow Tables im Hinblick auf Effizienz, Erfolgsrate und Ressourcenanforderungen untersucht. Zusätzlich erfolgt eine eingehende Untersuchung der Sicherheit des weit verbreiteten WLAN-Verschlüsselungsstandards WPA2 und der Diskussion möglicher Schutzmaßnahmen.
+
+Um dieses Ziel zu erreichen, wird sowohl ein theoretischer Vergleich durchgeführt, bei dem eine Nutzwertanalyse erstellt wird, als auch ein praktischer Vergleich in einem konstruierten Testfall durchgeführt. Der praktische Vergleich ermöglicht eine Überprüfung der Wirksamkeit und Anwendbarkeit der verschiedenen Methoden.
+
+Durch diese umfassende Herangehensweise soll ein fundiertes Verständnis für die Stärken und Schwächen der einzelnen Passwort-Hacking-Methoden gewonnen werden, 
+um Empfehlungen für den Schutz vor solchen Angriffen abzuleiten. Die Kombination aus theoretischer Analyse und praktischer Anwendung ermöglicht eine ganzheitliche Betrachtung des Themas.
 \subsection{Methodik}
-Als erster Schritt muss dafür erstmal die gängigen Hacking Methoden vorgestellt und erläutert werden. 
-Danach folgt ein Erklärung zum Thema Rainbow Tables welche für den praktischen Teil unersätzlich ist.
-Danach sollen Kriterien aufgestellt werden anhand derer die Methoden verglichen werden können. 
-Darauf folgt eine Nutzwertanalyse. 
-Als nächster Schritt wird das aufsetzen der Testumgebung beschrieben.
-Danach wird die praktische Ausführung der Tests beschrieben und das Ergebnis gemessen und dokumentiert.
-
-
-\begin{figure}[H]
-  \centering
-	\includegraphics[width=0.4\textwidth]{DHBW_logo.pdf}
-   \caption[Das Logo der DHBW]{Das Logo der DHBW\footnotemark}
-\end{figure}
-\footnotetext{\cite[][S.1]{DHBW}}
-
-Als Grafikformate werden u.a. PDF, PNG und JPEG akzeptiert. Die Bilddatei muss im Order "`images"' liegen.
-Mit einem Label in einer Abbildung oder Tabelle kann man darauf referenzieren, wie man an der Abbildung \ref{AbbildungLogoMusterfirma} sehen kann.
-\begin{figure}[H]
-  \centering
-	\includegraphics[width=0.3\textwidth]{company_logo.pdf}
-   \caption[Das Logo der Musterfirma]{Das Logo der Musterfirma\protect\footnotemark}
-   \label{AbbildungLogoMusterfirma}
-\end{figure}
-\footnotetext{Eigene Darstellung in Anlehnung an \cite[S.4]{Freund2014}}
-
-Die Breite einer Grafik oder einer Tabelle lässt sich einfach als Faktor festlegen. 1 entspricht dabei der Textbreite und 0.5 die Hälfte der Textbreite.
-Bei Tabellen wird die angegebene Breite nur bei Bedarf ausgenutzt.
-
-\begin{table}[H]
-  \centering
-  \begin{tabulary}{0.7\textwidth}{|L|L|}
-  \hline 
-  \rowcolor{tableHeading}Eigenschaft & Wert \\ 
-  \hline 
-  Größe & 20 cm \\ 
-  \hline 
-  Gewicht & 1 kg \\
-  \hline
-  Haarfarbe & braun \\  
-  \hline 
-  \end{tabulary} 
-  \caption[Eine Tabelle ohne Quellenangabe]{Eine Tabelle ohne Quellenangabe}
-\end{table}
-
-
-Experteninterviews.\footcite[Vgl.][S. 7]{Meuser2009} Ein Zitat aus der Wirtschaftswoche.\footcite[Vgl.][S. 32]{WIWO2018}
-Firmeninternes Material kann auch zitiert werden.\footcite[Vgl.][]{Firma2018} "`Das Zitat stammt aus einem Interviewprotokoll"'.\footcite{Experte2018}
-
-Mit zwei Backslash \\ erzwingt man einen Zeilenumbruch. Bei langen Wörtern funktioniert die Worttrennung oftmals nicht mehr.
-Dann muss man selbst die Silbentrennung vornehmen: Donau\-dampf\-schiff\-fahrts\-gesell\-schafts\-kapitän. \\
-Aufzählungen:
-\begin{itemize}
-  \item Punkt 1
-  \item Punkt 2
-\end{itemize}
-Nummerierte Aufzählung:
 \begin{enumerate}
-  \item Punkt 1
-  \item Punkt 2
+  \item Einführung der gängigen Hacking-Methoden: Als erster Schritt erfolgt eine umfassende Einführung in die verschiedenen gängigen Hacking-Methoden. Dabei werden die Methoden ausführlich erläutert, um den Leserinnen und Lesern einen fundierten Überblick über die unterschiedlichen Angriffstechniken zu geben.
+  \item Erklärung der Rainbow Tables: Im Anschluss daran erfolgt eine detaillierte Erklärung der Rainbow Tables, da diese für den praktischen Teil unverzichtbar sind. Es wird eine klare Definition der Rainbow Tables gegeben sowie ihre Funktionsweise und ihr Zweck im Kontext des Passwort-Hackings erläutert.
+  \item Aufstellung von Vergleichskriterien: Nach der Einführung und Erläuterung der Hacking-Methoden werden spezifische Vergleichskriterien aufgestellt, anhand derer die verschiedenen Methoden verglichen werden können. Diese Kriterien umfassen beispielsweise Effizienz, Erfolgsrate, Ressourcenbedarf und Anwendbarkeit. Dadurch wird eine strukturierte Grundlage für den Vergleich geschaffen.
+  \item Durchführung einer Nutzwertanalyse: Im nächsten Schritt erfolgt die Durchführung einer Nutzwertanalyse, um die verschiedenen Hacking-Methoden anhand der aufgestellten Kriterien zu bewerten. Dadurch können die Vor- und Nachteile jeder Methode objektiv beurteilt und eine Rangfolge erstellt werden.
+  \item Beschreibung der Testumgebung: Anschließend wird die Testumgebung detailliert beschrieben, die für die praktische Durchführung der Tests aufgesetzt wird. Dabei werden die verwendeten Hard- und Softwarekomponenten sowie die genauen Schritte und Vorgehensweisen für die Tests erläutert.
+  \item Praktische Durchführung der Tests: Die Tests werden gemäß der beschriebenen Testumgebung durchgeführt und die Ergebnisse sorgfältig dokumentiert. Es werden die angewandten Methoden, verwendeten Tools und erzielten Ergebnisse beschrieben. Dabei wird darauf geachtet, dass alle relevanten Informationen klar und präzise dargestellt werden.
+  \item Zusammenfassung der Ergebnisse: Am Ende der Methodik werden die Ergebnisse der praktischen Tests zusammengefasst und eventuelle Erkenntnisse oder Besonderheiten hervorgehoben. Es wird sichergestellt, dass die dokumentierten Ergebnisse den zuvor aufgestellten Vergleichskriterien entsprechen und eine Grundlage für die anschließende Diskussion bilden.
 \end{enumerate}
-
-Fußnoten sind besonders praktisch für Verweise auf andere Abschnitte der Arbeit.\footnote{Siehe Abschnitt \ref{Abschnitt:Arbeitsumfeld}} 
-Mit dem ref-Befehl lassen sich Labels referenzieren. Das funktioniert bei Abbildungen, Tabellen, Kapiteln und Abschnitten.

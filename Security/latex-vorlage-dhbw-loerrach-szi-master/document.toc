@@ -1,0 +1,21 @@
+\selectlanguage *[spelling=new, babelshorthands=true]{german}
+\contentsline {section}{Ehrenwörtliche Erklärung}{II}{section*.1}%
+\contentsline {section}{Hinweis zum Umfang der Arbeit}{II}{section*.2}%
+\contentsline {section}{Kurzfassung}{III}{section*.3}%
+\contentsline {section}{Inhaltsverzeichnis}{IV}{section*.4}%
+\contentsline {section}{Abkürzungsverzeichnis}{V}{section*.5}%
+\contentsline {section}{Abbildungsverzeichnis}{VI}{section*.6}%
+\contentsline {section}{Tabellenverzeichnis}{VII}{section*.7}%
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Einführung}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Zieldefinition}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Methodik}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Grundlagen}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Arbeitsumfeld}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Begriffliche Grundlagen}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}BPMN}{4}{subsubsection.2.2.1}%
+\contentsline {section}{\numberline {3}Ist- und Problemanalyse}{5}{section.3}%
+\contentsline {section}{\numberline {4}Lösungskonzept}{6}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{7}{section.5}%
+\contentsline {section}{Quellenverzeichnis}{VIII}{section*.8}%
+\contentsline {section}{Anhang}{IX}{section*.9}%
