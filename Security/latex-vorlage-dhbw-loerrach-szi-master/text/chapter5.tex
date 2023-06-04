@@ -1,3 +1,15 @@
-\section{Fazit}
+\section{Aufsetzten der Umgebung}
+Für die Durchführung der Tests wurde die neueste Version von Kali Linux als Live-Distribution verwendet, die mithilfe des Tools Rufus auf einem USB-Stick bootfähig installiert wurde. 
+Kali Linux ist eine renommierte Linux-Distribution, die speziell für Penetrationstests und Sicherheitstests entwickelt wurde, und ermöglicht den Zugriff auf aktuelle Sicherheitsfunktionen und Updates.
+Im ersten Test wurde auf einem Windows-Laptop ein WLAN-Hotspot eingerichtet, wobei als Sicherheitsstandard WPA2 gewählt wurde. 
+Dieser Standard gilt als sicher und wird für drahtlose Netzwerke empfohlen.
+Bei der Auswahl der Passwortlänge für die Tests wurde eine Statistik herangezogen, die ergeben hat, dass 49\% der Passwörter eine Länge von bis zu 10 Zeichen aufweisen.\footcite[Vgl]{statistalaenge} 
+Aufgrund dieser Erkenntnis wurden für die Tests Passwörter mit einer Länge von genau 10 Zeichen verwendet, um realitätsnahe Szenarien abzubilden.
+Insgesamt wurden die Tests unter Verwendung des Kali Linux-Images, das als Live-Distribution auf einem bootfähigen USB-Stick installiert wurde, durchgeführt. 
+Dabei wurde ein WLAN-Hotspot mit WPA2 auf einem Windows-Laptop erstellt, während die Auswahl der Passwortlänge auf statistischen Daten basierte. Diese Vorgehensweise gewährleistet eine fundierte und wissenschaftlich solide Durchführung der Tests.
+Als Programm für die Brute-Force und Dictionary-Attacken wurde Hashcat verwendet. Hashcat ist ein leistungsstarker Open-Source-Tool zum Cracken von Passwörtern und zur Wiederherstellung von verschlüsselten Hashes. 
+Um im folgenden auch noch Rainbow Table Attacken durchzuführen wurde rainbowcrack verwendet. RainbowCrack ist ein leistungsstarkes Tool zur Erzeugung und Verwendung von Rainbow Tables für die Passwortentschlüsselung.
+Für das Aufnehmen des Wlan Traffics wird hcxtools verwendet. Dieses ist für hashcat optimiert. 
+\section{Durchführung der Test}
 
  

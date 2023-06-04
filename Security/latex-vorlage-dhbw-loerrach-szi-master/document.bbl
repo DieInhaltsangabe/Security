@@ -19,6 +19,99 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{professional}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=21232f297a57a5a743894a0e4a801fc3}{%
+           family={{admin}},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{21232f297a57a5a743894a0e4a801fc3}
+      \strng{fullhash}{21232f297a57a5a743894a0e4a801fc3}
+      \strng{bibnamehash}{21232f297a57a5a743894a0e4a801fc3}
+      \strng{authorbibnamehash}{21232f297a57a5a743894a0e4a801fc3}
+      \strng{authornamehash}{21232f297a57a5a743894a0e4a801fc3}
+      \strng{authorfullhash}{21232f297a57a5a743894a0e4a801fc3}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{4-WAY HANDSHAKE}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wifi-professionals.com/2019/01/4-way-handshake
+      \endverb
+      \verb{url}
+      \verb https://www.wifi-professionals.com/2019/01/4-way-handshake
+      \endverb
+    \endentry
+    \entry{ETHZürich}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27bdce8156ef0951d408681af2ec6dcb}{%
+           family={{Bronstein/Semendjajew/Musiol/Muhlig}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{27bdce8156ef0951d408681af2ec6dcb}
+      \strng{fullhash}{27bdce8156ef0951d408681af2ec6dcb}
+      \strng{bibnamehash}{27bdce8156ef0951d408681af2ec6dcb}
+      \strng{authorbibnamehash}{27bdce8156ef0951d408681af2ec6dcb}
+      \strng{authornamehash}{27bdce8156ef0951d408681af2ec6dcb}
+      \strng{authorfullhash}{27bdce8156ef0951d408681af2ec6dcb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kombinatorik kurz und knapp}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stat.ethz.ch/education/semesters/WS_2005_06/info/KombinatorikZsfsg.pdf
+      \endverb
+      \verb{url}
+      \verb https://stat.ethz.ch/education/semesters/WS_2005_06/info/KombinatorikZsfsg.pdf
+      \endverb
+    \endentry
+    \entry{Rainbow}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bc7a90790ae7d8a54424d99260ed352}{%
+           family={{IT-Forensik Wiki}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bc7a90790ae7d8a54424d99260ed352}
+      \strng{fullhash}{7bc7a90790ae7d8a54424d99260ed352}
+      \strng{bibnamehash}{7bc7a90790ae7d8a54424d99260ed352}
+      \strng{authorbibnamehash}{7bc7a90790ae7d8a54424d99260ed352}
+      \strng{authornamehash}{7bc7a90790ae7d8a54424d99260ed352}
+      \strng{authorfullhash}{7bc7a90790ae7d8a54424d99260ed352}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rainbow Table}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://it-forensik.fiw.hs-wismar.de/index.php/Rainbow_Table
+      \endverb
+      \verb{url}
+      \verb https://it-forensik.fiw.hs-wismar.de/index.php/Rainbow_Table
+      \endverb
+    \endentry
     \entry{CNET}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0bf28fbd04fe3a5e8a357c56c6bcd994}{%
@@ -48,6 +141,132 @@
       \endverb
       \verb{url}
       \verb https://www.cnet.com/news/privacy/obama-serious-about-cybersecurity-also-delivers-laughs/
+      \endverb
+    \endentry
+    \entry{PBKDF2}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce7f18841f433e522e35a73bc65e51ce}{%
+           family={{Svetlin Nakov}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce7f18841f433e522e35a73bc65e51ce}
+      \strng{fullhash}{ce7f18841f433e522e35a73bc65e51ce}
+      \strng{bibnamehash}{ce7f18841f433e522e35a73bc65e51ce}
+      \strng{authorbibnamehash}{ce7f18841f433e522e35a73bc65e51ce}
+      \strng{authornamehash}{ce7f18841f433e522e35a73bc65e51ce}
+      \strng{authorfullhash}{ce7f18841f433e522e35a73bc65e51ce}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PBKDF2}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2
+      \endverb
+      \verb{url}
+      \verb https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2
+      \endverb
+    \endentry
+    \entry{statistaerstellen}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dcd8c15bcc5c47a9d9e98660c94858cd}{%
+           family={{Web.de}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{fullhash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{bibnamehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{authorbibnamehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{authornamehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{authorfullhash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wie erstellen/generieren Sie Ihr Passwort?}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.statista.com/statistik/daten/studie/818733/umfrage/methoden-der-passworterstellung-in-deutschland/
+      \endverb
+      \verb{url}
+      \verb https://de.statista.com/statistik/daten/studie/818733/umfrage/methoden-der-passworterstellung-in-deutschland/
+      \endverb
+    \endentry
+    \entry{statistalaenge}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dcd8c15bcc5c47a9d9e98660c94858cd}{%
+           family={{Web.de}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{fullhash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{bibnamehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{authorbibnamehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{authornamehash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \strng{authorfullhash}{dcd8c15bcc5c47a9d9e98660c94858cd}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wie lang sind Ihre am häufigsten verwendeten Passwörter?}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.statista.com/statistik/daten/studie/988439/umfrage/laenge-von-passwoertern-in-deutschland/
+      \endverb
+      \verb{url}
+      \verb https://de.statista.com/statistik/daten/studie/988439/umfrage/laenge-von-passwoertern-in-deutschland/
+      \endverb
+    \endentry
+    \entry{Wikipedia}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brute-Force-Methode}
+      \field{urlday}{3}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Brute-Force-Methode
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Brute-Force-Methode
       \endverb
     \endentry
   \enddatalist

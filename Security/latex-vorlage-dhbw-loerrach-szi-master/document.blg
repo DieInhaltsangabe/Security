@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'document.blg'
-[113] biber-MSWIN64:340> INFO - === 
-[150] Biber.pm:419> INFO - Reading 'document.bcf'
-[274] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
-[290] Biber.pm:4419> INFO - Processing section 0
-[303] Biber.pm:4610> INFO - Looking for bibtex file 'text/bibliography.bib' for section 0
-[356] bibtex.pm:1713> INFO - LaTeX decoding ...
-[372] bibtex.pm:1519> INFO - Found BibTeX data source 'text/bibliography.bib'
-[416] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[417] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[417] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[417] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[423] bbl.pm:660> INFO - Writing 'document.bbl' with encoding 'UTF-8'
-[423] bbl.pm:763> INFO - Output to document.bbl
+[133] biber-MSWIN64:340> INFO - === 
+[170] Biber.pm:419> INFO - Reading 'document.bcf'
+[298] Biber.pm:979> INFO - Found 8 citekeys in bib section 0
+[315] Biber.pm:4419> INFO - Processing section 0
+[328] Biber.pm:4610> INFO - Looking for bibtex file 'text/bibliography.bib' for section 0
+[371] bibtex.pm:1713> INFO - LaTeX decoding ...
+[390] bibtex.pm:1519> INFO - Found BibTeX data source 'text/bibliography.bib'
+[453] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[453] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[453] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[454] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[465] bbl.pm:660> INFO - Writing 'document.bbl' with encoding 'UTF-8'
+[469] bbl.pm:763> INFO - Output to document.bbl

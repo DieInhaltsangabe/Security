@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.2)  2 JUN 2023 23:57
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.2)  4 JUN 2023 10:33
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/NJann/OneDrive/Desktop/DH/Security/Security/latex-vorlage-dhbw-loerr
@@ -255,12 +255,12 @@ braces):
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
+(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 16
+(polyglossia)            hyphenation	
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1901.tex on input line 16
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 16
 Package polyglossia Info: Option: German, spelling=new.
@@ -1080,12 +1080,12 @@ LaTeX Info: Redefining \ttfamily on input line 20.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 Module polyglossia Info: Language data for ngerman
+(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 20
+(polyglossia)            hyphenation	
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1996.tex on input line 20
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 20
 Package polyglossia Info: Option: German, spelling=new.
@@ -1378,7 +1378,7 @@ Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
 
 (./text/template/titlepage.tex
-<images/DHBW_logo.pdf, id=83, 97.60214pt x 47.2465pt>
+<images/DHBW_logo.pdf, id=159, 97.60214pt x 47.2465pt>
 File: images/DHBW_logo.pdf Graphic file (type pdf)
 <use images/DHBW_logo.pdf>
 Package luatex.def Info: images/DHBW_logo.pdf  used on input line 7.
@@ -1437,33 +1437,107 @@ uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [4]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 \tf@toc=\write5
 
 \openout5 = document.toc
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [4] (./text/acronym.tex
+uage deu [5] (./text/acronym.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
-[5]
+[6]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu (./document.lof)
+uage deu (./document.lof
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 \tf@lof=\write6
 
 \openout6 = document.lof
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [6]
+uage deu [7]
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu (./document.lot)
+uage deu (./document.lot
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
 \tf@lot=\write7
 
 \openout7 = document.lot
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [7] (./text/chapter1.tex
+uage deu [8] (./text/chapter1.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1512,24 +1586,175 @@ luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+Overfull \hbox (1.06607pt too wide) in paragraph at lines 4--9
+\TU/carlito(0)/m/n/12 Ein Brute-Force-Angriff be-zeich-net den Ver-such, ein Pas
+s-wort, ei-nen Be-nut-zer-na-men oder
+ []
+
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+<images/Bruteforcecode.png, id=302, 728.7225pt x 642.14906pt>
+File: images/Bruteforcecode.png Graphic file (type png)
+<use images/Bruteforcecode.png>
+Package luatex.def Info: images/Bruteforcecode.png  used on input line 13.
+(luatex.def)             Requested size: 298.75264pt x 263.25342pt.
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [4]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [5<./images/Bruteforcecode.png>]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+<images/dictionary.png, id=318, 572.1375pt x 200.24812pt>
+File: images/dictionary.png Graphic file (type png)
+<use images/dictionary.png>
+Package luatex.def Info: images/dictionary.png  used on input line 43.
+(luatex.def)             Requested size: 298.75264pt x 104.5635pt.
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+Overfull \hbox (41.06021pt too wide) in paragraph at lines 40--46
+\TU/carlito(0)/m/n/12 Die Ab-bil-dung ver-an-schau-licht die Funk-ti-ons-wei-se ei-nes ein-fa-chen Dictionary-Attack-Algorithmus. 
+ []
+
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [6]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [7<./images/dictionary.png>]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Overfull \hbox (74.76721pt too wide) in paragraph at lines 59--77
+ [][][][] 
+ []
+
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [8]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+Overfull \hbox (4.00748pt too wide) in paragraph at lines 98--107
+\TU/carlito(0)/m/n/12 Netz-werk her-zu-stel-len. Vor dem An-griff kön-nen mit 
+Hil-fe von Tech-ni-ken wie der Dictionary-
+ []
+
+
+Overfull \hbox (33.09537pt too wide) in paragraph at lines 98--107
+\TU/carlito(0)/m/n/12 Attack oder Brute-Force vie-le Schlüssel-Hashwert-Paare 
+er-zeugt wer-den. Im 4-Wege-Handshake,
+ []
+
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [9])
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [10] (./text/chapter3.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [4] (./text/chapter3.tex
+uage deu [11] (./text/chapter4.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+Overfull \hbox (1.63834pt too wide) in paragraph at lines 18--28
+\TU/carlito(0)/m/n/12 Der Brute-Force-Algorithmus durch-sucht sys-te-ma-tisch al
+-le mög-li-chen Kom-bi-na-tio-nen, um
+ []
+
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [12]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [13]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [14]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu)
+Overfull \hbox (0.75748pt too wide) in paragraph at lines 59--59
+\TU/carlito(0)/m/n/12 Un-ter Be-rück-sich-ti-gung der Ge-wich-tung er-hält der
+ Brute-Force-Algorithmus ei-ne Ge-samt-
+ []
+
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [15]
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu [16] (./text/chapter5.tex
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 35 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
+uage deu
+luaotfload | aux : font no 36 (nil) defines no feature for script latn with lang
+uage deu
+Overfull \hbox (11.72818pt too wide) in paragraph at lines 2--13
+\TU/carlito(0)/m/n/12 Für die Durch-füh-rung der Tests wur-de die neu-es-te Ve
+r-si-on von Ka-li Li-nux als Live-Distribution
+ []
+
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu)
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [5]
-(./text/chapter4.tex
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu)
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [6] (./text/chapter5.tex
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu)
-luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [7]
-(./text/template/references.tex
+uage deu [17] (./text/template/references.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
 uage deu
 
@@ -1552,6 +1777,12 @@ LaTeX Warning: Empty bibliography on input line 10.
 
 luaotfload | aux : font no 51 (nil) defines no feature for script latn with lang
 uage deu
+Overfull \hbox (1.98177pt too wide) in paragraph at lines 13--13
+[][]\TU/carlito(0)/m/n/12 Bron-stein/Se-mend-ja-jew/Mu-si-ol/Muhl-ig (1999). \T
+U/carlito(0)/m/it/12 Kom-bi-na-to-rik kurz und knapp\TU/carlito(0)/m/n/12 . URL:
+ []$https :
+ []
+
 
 Package biblatex Warning: Type 'interview' not found on input line 16.
 
@@ -1566,7 +1797,7 @@ LaTeX Warning: Empty bibliography on input line 19.
 
 )
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [8
+uage deu [9
 
 ] (./text/appendix.tex
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
@@ -1709,7 +1940,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
 luaotfload | aux : font no 33 (nil) defines no feature for script latn with lang
-uage deu [9] (./document.aux
+uage deu [10] (./document.aux
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
 LaTeX Info: Redefining \rmfamily on input line 20.
@@ -1721,29 +1952,36 @@ Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, spelling=new.
 )
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 12315A6050D3EC5EDB31AC1AB0FFE1E6;2518.
+(rerunfilecheck)             Checksum: 12F99A7B37D491574B3BB9530A6B6622;5045.
 Package logreq Info: Writing requests to 'document.run.xml'.
 
 \openout1 = document.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 24222 strings out of 478364
+ 24369 strings out of 478364
  125038,1977958 words of node,token memory allocated
- 507 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 3 glue, 3 kern, 1 glyph, 6 attribute, 64 glue_spec,
- 6 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:4,2:477,3:250,4:38,5:832,6:77,7:5555,8:89,9:335,10:12,11:663
- 43408 multiletter control sequences out of 65536+600000
+ 648 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 9 glue, 3 kern, 1 glyph, 19 attribute, 65 glue_spec
+, 19 attribute_list, 1 write, 8 pdf_action nodes
+   avail lists: 1:4,2:980,3:357,4:501,5:1049,6:97,7:6862,8:109,9:712,10:16,11:77
+6
+ 43491 multiletter control sequences out of 65536+600000
  60 fonts using 14341959 bytes
- 77i,12n,112p,772b,2453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,13n,112p,772b,2453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.4'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.3'
 <C:/Users/NJann/AppData/Local/Programs/MiKTeX/fonts/truetype/google/carlito/Carl
 ito-Italic.ttf><C:/Users/NJann/AppData/Local/Programs/MiKTeX/fonts/truetype/goog
 le/carlito/Carlito-Bold.ttf><C:/Users/NJann/AppData/Local/Programs/MiKTeX/fonts/
-truetype/google/carlito/Carlito-Regular.ttf>
-Output written on document.pdf (16 pages, 113702 bytes).
+truetype/google/carlito/Carlito-Regular.ttf><C:/Users/NJann/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/NJann/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on document.pdf (27 pages, 248051 bytes).
 
-PDF statistics: 248 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 131072)
- 161 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 468 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 131072)
+ 313 words of extra memory for PDF output out of 10000 (max. 100000000)
 

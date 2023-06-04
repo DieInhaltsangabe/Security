@@ -1,3 +1,67 @@
-\section{Lösungskonzept}
+\section{Nutzwertanalyse}
+In der Nutzwertanalyse werden die Algorithmen in den verschiedenen Kriterien mit Werten zwischen 1 - 10 bewertet. Je höher die Zahl ist desto besser ist der Algorithmus. 
+\subsection{Effizienz}
+Der Brute-Force-Algorithmus zeichnet sich durch seine Fähigkeit aus, alle möglichen Kombinationen zu überprüfen, um das gesuchte Passwort zu finden. 
+Dieser umfassende Ansatz erfordert jedoch eine große Anzahl von Anfragen, um das gewünschte Ergebnis zu erzielen.
+Trotz dieses erhöhten Ressourcenbedarfs verfügt der Brute-Force-Algorithmus über eine strukturierte Vorgehensweise, die es ihm ermöglicht, 
+relativ schnell neue potenzielle Kombinationen zu generieren, ohne dabei doppelte Anfragen zu senden.
+Es ist jedoch wichtig anzumerken, dass der Brute-Force-Algorithmus durch den Einsatz von Techniken wie der Einbindung von GPUs und der Bildung von Clustern effizienter gemacht werden kann. 
+Diese Ansätze ermöglichen eine Parallelisierung der Berechnungen und eine schnellere Verarbeitung großer Mengen an Daten. 
+Durch die Nutzung dieser Ressourcen kann der Brute-Force-Algorithmus die Zeit, die für das Durchprobieren aller möglichen Kombinationen benötigt wird, erheblich reduzieren
+In Bezug auf die Effizienz erhält der Brute-Force-Algorithmus eine Bewertung von 5 von 10 Punkten. 
+Der Dictionary-Attack-Algorithmus nutzt eine Wortliste als Grundlage für seine Funktionsweise. 
+Laut Statistiken sind rund 47 \% der deutschen Benutzerpasswörter potenziell in einer solchen Wortliste enthalten. \footcite{statistaerstellen}
+Dies bedeutet, dass eine beträchtliche Anzahl von Passwörtern allein durch den Vergleich mit einer Wortliste ermittelt werden kann. 
+Im Vergleich zum Brute-Force-Algorithmus erfordert der Dictionary-Attack nur wenige Anfragen, um die Überprüfung mit der Wortliste abzuschließen.
+Aufgrund der effizienten Ausnutzung der Wortliste und der schnellen Erkennung von passenden Kandidaten erhält der Dictionary-Attack-Algorithmus eine Bewertung von 8 von 10 Punkten in Bezug auf seine Effizienz. 
+\subsection{Erfolgsquote}
+Der Brute-Force-Algorithmus durchsucht systematisch alle möglichen Kombinationen, um das richtige Passwort zu finden. 
+Da er keine Informationen über das Passwort verwendet, ist die Zeit, die benötigt wird, um das Passwort zu knacken, abhängig von der Länge und Komplexität des Passworts. 
+Es gibt jedoch keine Garantie, dass das Passwort innerhalb einer bestimmten Zeit gefunden wird. 
+In Bezug auf die Erfolgsquote erhält der Brute-Force-Algorithmus 10 von 10 Punkten, da er letztendlich jedes Passwort knacken kann.
+Der Dictionary-Attack-Algorithmus hingegen basiert auf einer vorgefertigten Liste von Wörtern, die mögliche Passwörter enthalten. 
+Statistiken zeigen, dass etwa 47 \% der deutschen Benutzer Passwörter verwenden, die in solchen Wortlisten enthalten sind. 
+Dies bedeutet, dass mit einer geeigneten Wortliste ein beträchtlicher Anteil der Passwörter gefunden werden kann. 
+Es ist jedoch wichtig zu beachten, dass diese Statistik auf eine spezifische Benutzergruppe zutrifft und nicht auf die gesamte Benutzerpopulation verallgemeinert werden kann. 
+Unter Berücksichtigung von möglichen Passwörtern in den Kategorien ``Sonstiges`` und ``Keine Angaben`` könnte die Erfolgsquote des Dictionary-Attack-Algorithmus auf etwa 80 \% steigen. 
+Aufgrund der nicht garantierten Erfolgsquote werden dem Dictionary-Attack-Algorithmus 6 von 10 Punkten zugewiesen.
+\subsection{Ressourcenbedarf}
+Der Brute-Force-Algorithmus zeichnet sich durch seinen Ansatz aus, alle möglichen Kombinationen systematisch auszuprobieren, um das gesuchte Passwort zu finden. 
+Dieser umfassende Ansatz erfordert jedoch eine erhebliche Menge an Rechenzeit, da alle potenziellen Kombinationen überprüft werden müssen. 
+In Bezug auf den Ressourcenbedarf benötigt der Brute-Force-Algorithmus zwar nur wenig Speicher, da er das nächste Passwort anhand des vorherigen Passworts generieren kann, sogenannte Inkrementierung. 
+Dennoch erhält er in diesem Kriterium eine Bewertung von 3 von 10 Punkten, da die Rechenzeit aufgrund der großen Anzahl von Kombinationen hoch ist.
 
- 
+Der Dictionary-Attack-Algorithmus hingegen benötigt während der Laufzeit eine moderatere Menge an Rechenzeit. 
+Dies liegt daran, dass nur geringfügige Änderungen an den bereits generierten Wörtern vorgenommen werden müssen, um weitere Kandidaten zu testen. 
+Der eigentliche Vergleich der Wörter aus der Wortliste mit dem Passwort erfordert ebenfalls nur wenig Rechenleistung. 
+Allerdings benötigt dieser Algorithmus einen höheren Speicherbedarf, da sowohl die bereits getesteten Wörter als auch die Wortliste gespeichert werden müssen. 
+In Bezug auf den Ressourcenbedarf erhält der Dictionary-Attack-Algorithmus eine Bewertung von 6 von 10 Punkten, da der Rechenaufwand moderat ist, jedoch der Speicherbedarf höher ist.
+\subsection{Anpassungsfähigkeit}
+Der Brute-Force-Algorithmus zeichnet sich durch seine hohe Anpassungsfähigkeit aus, da verschiedene Symbole konfiguriert werden können. 
+Diese Flexibilität ermöglicht es, Abwandlungen des Brute-Force-Algorithmus, sogenannte Masked Attacks, einzusetzen, bei denen gezielt nach spezifischen Mustern gesucht wird. 
+Diese Anpassungsfähigkeit erlaubt eine präzisere und effizientere Suche nach dem Passwort. 
+In Bezug auf die Anpassungsfähigkeit und die Fähigkeit, detaillierte Muster zu berücksichtigen, erhält der Brute-Force-Algorithmus eine Bewertung von 10 von 10 Punkten, da keine negativen Aspekte bekannt sind.
+
+Bei Dictionary-Attacks besteht ebenfalls die Möglichkeit, sich durch den Einsatz verschiedener vorgefertigter Wortlisten an verschiedene Passwortrichtlinien anzupassen. 
+Zudem können eigene Wortlisten für eine komplexere Anpassung generiert werden. 
+Es ist jedoch wichtig anzumerken, dass die Suche nach passenden Wortlisten bei sehr komplexen und ungewöhnlichen Passwortrichtlinien eine Herausforderung darstellen kann. 
+In solchen Fällen kann die Effektivität von Dictionary-Attacks eingeschränkt sein. 
+Daher erhält der Dictionary-Attack in Bezug auf die Anpassung an spezielle Passwortrichtlinien eine Bewertung von 6 von 10 Punkten. 
+Es ist jedoch zu beachten, dass für die meisten gängigen Passwortrichtlinien bereits umfangreiche und große Wortlisten vorhanden sind, was die Effektivität des Angriffs verbessert.
+\subsection{Gewichtung der Kriterien}
+\begin{enumerate}
+    \item Erfolgsquote (30\%): Die Erfolgsquote ist ein entscheidendes Kriterium, da sie angibt, wie erfolgreich der Algorithmus beim Knacken von Passwörtern ist. Ein Algorithmus mit einer höheren Erfolgsquote sollte eine höhere Gewichtung erhalten, da dies seine Effektivität widerspiegelt.
+    \item Effizienz (30\%): Die Effizienz betrifft die Zeit- und Ressourceneffizienz der Algorithmen. Ein effizienter Algorithmus benötigt weniger Ressourcen und Zeit, um das gewünschte Ergebnis zu erzielen. Daher ist die Effizienz ein wichtiges Kriterium, das in die Bewertung einfließen sollte.
+    \item Ressourcenbedarf (20\%): Der Ressourcenbedarf betrifft den Einsatz von Rechenressourcen wie CPU, Speicher und Energie. Ein Algorithmus, der weniger Ressourcen benötigt, wird als vorteilhafter angesehen, da er kostengünstiger und effizienter ist.
+    \item Anpassungsfähigkeit (20\%): Die Anpassungsfähigkeit bezieht sich auf die Fähigkeit der Algorithmen, sich an verschiedene Passwortrichtlinien anzupassen und spezifische Anforderungen zu erfüllen. Eine höhere Anpassungsfähigkeit ermöglicht es dem Algorithmus, effektiver auf verschiedene Szenarien zu reagieren und eine größere Bandbreite von Passwörtern zu knacken.
+\end{enumerate}
+\subsection{Fazit}
+Unter Berücksichtigung der Gewichtung erhält der Brute-Force-Algorithmus eine Gesamtpunktzahl von 7,1, während der Dictionary-Attack-Algorithmus eine Punktzahl von 6,6 erhält. 
+Die Gewichtung der Kriterien spiegelt die Prioritäten und Anforderungen der Nutzwertanalyse wider.
+Der Dictionary-Attack-Algorithmus zeigt seine Stärken in seiner Effizienz und Flexibilität bei der Verwendung von vorgefertigten Wortlisten und begrenzten Ressourcen, um Passwörter zu knacken. 
+Es ist ein schneller und einfacher Ansatz, der sich gut für Situationen eignet, in denen ein Passwort schnell gefunden werden soll. 
+Allerdings besteht die Möglichkeit, dass der Algorithmus kein passendes Passwort findet.
+Im Gegensatz dazu verbraucht der Brute-Force-Algorithmus deutlich mehr Ressourcen und ist ineffizienter, da er alle möglichen Kombinationen ausprobiert. 
+Dennoch bietet er die Garantie, dass er letztendlich das gesuchte Passwort findet. 
+Der Brute-Force-Algorithmus eignet sich daher für Situationen, in denen das Knacken eines Passworts absolut erforderlich ist.
+Ein metaphorischer Vergleich könnte sein, dass Dictionary-Attacks als ``Universal-Schlüssel`` von bekannten Herstellern angesehen werden können, während Brute-Force-Attacken mit einem ``Vorschlaghammer`` vergleichbar sind.
